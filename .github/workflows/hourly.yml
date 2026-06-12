@@ -1,16 +1,14 @@
 name: Hourly Meter Logger
 
 on:
-workflow_dispatch:
-schedule:
-- cron: '0 * * * *'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'
 
 jobs:
-test:
-runs-on: ubuntu-latest
+  test:
+    runs-on: ubuntu-latest
 
-```
-steps:
-  - name: Test
-    run: echo "GitHub Action Working"
-```
+    steps:
+      - name: Test
+        run: echo "GitHub Action Working"
