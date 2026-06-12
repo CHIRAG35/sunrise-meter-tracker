@@ -1,0 +1,6 @@
+{
+  "name": "sunrise-meter-tracker",
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  }
+}
